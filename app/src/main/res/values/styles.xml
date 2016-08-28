@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:spinnerItemStyle">@style/pcsaSpinnerShownStyle</item>
+    </style>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="pcsaSpinnerShownStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
+    </style>
+
+    <style name="AppButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_btn_rounded_rectangle</item>
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/app_button_side_padding</item>
+        <item name="android:paddingRight">@dimen/app_button_side_padding</item>
+    </style>
+
+    <style name="NavigateButton" parent="AppButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="NavigateWrapButton" parent="AppButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

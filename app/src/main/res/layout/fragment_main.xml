@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/background_app"
+    tools:context=".MainActivityFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/circleButton"
+            style="@style/NavigateButton"
+            android:text="@string/circle"
+            android:layout_marginTop="@dimen/fragment_main_marginTop_20"/>
+
+        <Button
+            android:id="@+id/getButton"
+            style="@style/NavigateButton"
+            android:text="Safety Tips"
+            android:layout_marginTop="@dimen/fragment_main_marginTop"/>
+
+        <Button
+            android:id="@+id/safetyToolsButton"
+            style="@style/NavigateButton"
+            android:text="Record"
+            android:layout_marginTop="@dimen/fragment_main_marginTop_20"/>
+        <Button
+            android:id="@+id/safetyResourceButton"
+            style="@style/NavigateButton"
+            android:text="NGOs Around"
+            android:layout_marginTop="@dimen/fragment_main_marginTop_20"/>
+        <Button
+            android:id="@+id/getHelpButton"
+            style="@style/NavigateButton"
+            android:text="Support us"
+            android:layout_marginTop="@dimen/fragment_main_marginTop_20"/>
+
+    </LinearLayout>
+
+</ScrollView>
